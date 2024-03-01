@@ -59,10 +59,8 @@ export function HeaderMegaMenu() {
 				<header className={classes.header}>
 					<Group justify="space-between" h="100%">
 						<Title
-							order={3}
-							fw="900"
-							tt="uppercase"
-							style={{ cursor: 'pointer', fontWeight: "bold" }}
+							order={2}
+							style={{ cursor: 'pointer' }}
 							onClick={() => navigate(`${ROUTER_ACTIONS.HOME}`)}
 						>
 							Multi Level
@@ -119,11 +117,10 @@ export function HeaderMegaMenu() {
 				<Drawer
 					opened={drawerOpened}
 					onClose={closeDrawer}
-					size="100%"
+					size="md"
 					padding="md"
-					title="Navigation"
+					title='Multi Lavel'
 					hiddenFrom="md"
-					style={{ fontSize: 30 }}
 					zIndex={1000000}
 				>
 					<ScrollArea h={`calc(100vh - ${rem(80)})`} mx="-md">

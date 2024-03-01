@@ -11,35 +11,13 @@ import classes from './style.module.scss'
 import { useNavigate } from 'react-router-dom'
 import { ROUTER_ACTIONS } from '@/services/providers/Router/RouterActions'
 
-const links = [
-	{ link: '+998 91 470 98 02', label: 'For reference' },
-	{ link: '#', label: 'Privacy' },
-	{ link: '#', label: 'Blog' },
-	{ link: '#', label: 'Store' },
-	{ link: '#', label: 'Careers' },
-]
-
 export function Footer() {
 	const navigate = useNavigate()
-	const items = links.map((link) => (
-		<Anchor
-			c="dimmed"
-			key={link.label}
-			href={link.link}
-			lh={1}
-			fw="bold"
-			size="md"
-		>
-			{link.label}
-		</Anchor>
-	))
 	return (
 		<div className={classes.footer}>
 			<div className={classes.inner}>
 				<Title
-					order={3}
-					fw="900"
-					tt="uppercase"
+					order={2}
 					style={{ cursor: 'pointer' }}
 					onClick={() => navigate(`${ROUTER_ACTIONS.HOME}`)}
 				>
@@ -52,14 +30,14 @@ export function Footer() {
 				>
 					<a
 						className={classes.link}
-						style={{ fontFamily: 'sans-serif', color: 'inherit' }}
+						style={{ color: 'inherit' }}
 						href="tel:+998 91 470 98 02"
 					>
 						For Reference +998 91 470 98 02
 					</a>
 					<a
 						className={classes.link}
-						style={{ fontFamily: 'sans-serif', color: 'inherit' }}
+						style={{ color: 'inherit' }}
 						href="tel:+998 91 470 98 02"
 					>
 						Created By Abbos Shodmonov

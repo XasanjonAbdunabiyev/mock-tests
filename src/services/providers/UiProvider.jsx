@@ -37,7 +37,7 @@ const themeConfig = createTheme({
 			'#01010a',
 		],
 	},
-	// fontFamily: 'sans-serif',
+	headings: { fontFamily: 'Verdana, sans-serif', fontWeight: "500" },
 })
 
 export function UiProvider(props) {

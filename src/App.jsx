@@ -9,7 +9,7 @@ export default function App() {
 			<ToastContainer />
 			<Helmet>
 				<title>
-					{'multilevel-mock-tests'.concat(':)').toUpperCase()}
+					{'multilevel-mock-tests'}
 				</title>
 				<meta charSet="utf-8" />
 				<link

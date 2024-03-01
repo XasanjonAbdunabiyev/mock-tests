@@ -14,12 +14,10 @@
 	padding-right: var(--mantine-spacing-md);
 	text-decoration: none;
 	color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
-	font-weight: bold;
 	text-transform: capitalize;
 
 	&:hover {
-		color: rgb(84, 76, 249);
-		text-decoration: underline wavy;
+		color: rgb(35, 32, 79);
 	}
 
 	font-size: var(--mantine-font-size-md);

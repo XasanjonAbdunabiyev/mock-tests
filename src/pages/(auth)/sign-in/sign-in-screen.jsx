@@ -101,17 +101,19 @@ export default function SignInScreen() {
 						mt="md"
 						mb={50}
 					>
-						Welcome
-						<Title
+						Welcome to{' '}
+						<Text
 							component="a"
+							variant="gradient"
+							size='xl'
+							my={2}
+							href='/'
+							td="underline"
+							fw="bold"
 							display="block"
-							href="/"
-							style={{ color: 'inherit', fontWeight: '900' }}
-							order={3}
-							tt="uppercase"
 						>
-							Mock Tests
-						</Title>
+							Multi Level Mock Tests
+						</Text>
 					</Title>
 
 					<TextInput
