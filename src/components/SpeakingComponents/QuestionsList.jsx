@@ -25,7 +25,7 @@ function DecrementTimeThink({ number, isPlay, func }) {
 					return prevNumber
 				}
 			})
-		}, 900)
+		}, 600)
 		return () => clearInterval(interval)
 	}, [number, isPlay])
 	return <Title order={4}>{currentNumber} second</Title>
@@ -47,7 +47,7 @@ function DecrementTimeAnswer({ number, isPlay, func }) {
 					return prevNumber
 				}
 			})
-		}, 900)
+		}, 600)
 		return () => clearInterval(interval)
 	}, [number, isPlay])
 	return <Title order={4}>{currentNumber} second</Title>

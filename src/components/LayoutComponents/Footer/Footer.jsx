@@ -40,7 +40,7 @@ export function Footer() {
 						style={{ color: 'inherit' }}
 						href="tel:+998 91 470 98 02"
 					>
-						Created By Abbos Shodmonov
+						Created By Abbos Shodmonov & Xasanjon Abdunabiyev
 					</a>
 				</Group>
 

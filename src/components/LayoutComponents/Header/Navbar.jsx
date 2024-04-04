@@ -60,7 +60,7 @@ export function HeaderMegaMenu() {
 					<Group justify="space-between" h="100%">
 						<Title
 							order={2}
-							style={{ cursor: 'pointer' }}
+							style={{ cursor: 'pointer',}}
 							onClick={() => navigate(`${ROUTER_ACTIONS.HOME}`)}
 						>
 							Multi Level

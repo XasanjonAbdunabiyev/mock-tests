@@ -7,10 +7,10 @@ export function HeroImageRight() {
 			<Container size="lg">
 				<div className={classes.inner}>
 					<div className={classes.content}>
-						<Title className={classes.title}>
-							Test Online, Anytime, Anywhere MULTILeveL English
+						<h1 className={classes.title}>
+							Test Online, Anytime, Anywhere Multi Level English
 							Test
-						</Title>
+						</h1>
 					</div>
 				</div>
 			</Container>

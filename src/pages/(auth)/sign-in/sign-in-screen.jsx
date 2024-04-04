@@ -53,6 +53,8 @@ export default function SignInScreen() {
 		resolver: zodResolver(SignInSchema),
 	})
 
+	console.log(admin)
+
 	const { register, handleSubmit, formState } = form
 	const { errors, isSubmitting, isSubmitSuccessful } = formState
 

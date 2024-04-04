@@ -42,8 +42,8 @@
 .title {
 	font-weight: bolder;
 	line-height: 1.7;
-	max-width: rem(700px);
-	font-size: rem(55px);
+	max-width: rem(800px);
+	font-size: rem(60px);
 	word-spacing: 5px;
 	background: -webkit-linear-gradient(
 		#ffffff,
@@ -52,7 +52,6 @@
 		rgb(234, 234, 237)
 	);
 	-webkit-background-clip: text;
-	font-family: 'Nunito', sans-serif !important;
 	-webkit-text-fill-color: transparent;
 	@media (max-width: $mantine-breakpoint-md) {
 		max-width: 100%;
